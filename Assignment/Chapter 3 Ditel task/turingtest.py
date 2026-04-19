@@ -1,12 +1,12 @@
 #3.6
 
-user_prompt = ("What is your problem? : ")
+user_prompt = input("What is your problem? : ")
 
-question = bol(input("Have you had this problem before (yes or no)? : ")
+question = bool(input("Have you had this problem before (True or False)? : "))
 
-if question == yes:
+if question == True:
     print('Well, you have it again.')
-if question == no:
+if question == False:
     print('Well, you hve it now.')
 
 """
