@@ -1,7 +1,7 @@
 """
 collect a number
 initalize a count
-multiply the number and the amount of times the loop runs
+multiply the number using the count variable to go with the times the loop runs
 """
 
 number = int(input('Enter a number to multiply: '))
